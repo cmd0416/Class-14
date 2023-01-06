@@ -26,31 +26,64 @@
 
 
 
+// const andi = document.querySelector('#andi')
+// const claire = document.querySelector('#claire')
+// const sharleen = document.querySelector('#sharleen')
+
+
+// document.querySelector('#andiNext').addEventListener('click', andiWinner)
+// document.querySelector('#claireNext').addEventListener('click', claireWinner)
+// document.querySelector('#sharleenNext').addEventListener('click', sharleenWinner)
+
+
+// function andiWinner (){
+// 	claire.classList.add('hidden')
+// 	sharleen.classList.add('hideen')
+// 	andi.classList.toggle('hidden')
+
+// }
+
+// function claireWinner(){
+// 	andi.classList.add('hidden')
+// 	sharleen.classList.add('hidden')
+// 	claire.classList.toggle('hidden')
+// }
+
+// function sharleenWinner(){
+// 	andi.classList.add('hidden')
+// 	claire.classList.add('hidden')
+// 	sharleen.classList.toggle('hidden')
+// }
+
+
 const andi = document.querySelector('#andi')
 const claire = document.querySelector('#claire')
 const sharleen = document.querySelector('#sharleen')
 
 
-document.querySelector('#andiNext').addEventListener('click', andiWinner)
-document.querySelector('#claireNext').addEventListener('click', claireWinner)
-document.querySelector('#sharleenNext').addEventListener('click', sharleenWinner)
+document.querySelector('#andiNext').addEventListener('click', andiNext)
+document.querySelector('#claireNext').addEventListener('click', claireNext)
+document.querySelector('#sharleenNext').addEventListener('click', sharleenNext)
 
-
-function andiWinner (){
+function andiNext(){
 	claire.classList.add('hidden')
-	sharleen.classList.add('hideen')
+	sharleen.classList.add('hidden')
 	andi.classList.toggle('hidden')
-
 }
 
-function claireWinner(){
+
+function claireNext(){
 	andi.classList.add('hidden')
 	sharleen.classList.add('hidden')
 	claire.classList.toggle('hidden')
+
 }
 
-function sharleenWinner(){
+
+function sharleenNext (){
 	andi.classList.add('hidden')
 	claire.classList.add('hidden')
 	sharleen.classList.toggle('hidden')
+
 }
+
